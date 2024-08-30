@@ -4,10 +4,8 @@ const inquirer = require('inquirer');
 const colors = require('colors');
 const { clear } = require('console');
 const generateMarkdown = require('./utils/generateMarkdown.js');
-let launched = false;
 
 function launch () {
-    launched = true;
     console.log(colors.green("  PLEASE MAKE FULL SCREEN!"));
     console.log(colors.green("  Loading in:"));
     console.log(colors.green(""));
@@ -133,7 +131,11 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, readmeResult) {
+    fs.writeFile(fileName, readmeResult, (error) => {
+        (error) ? console.error(error) : console.log("README created");  
+    })
+}
 
 // TODO: Create a function to initialize app
 function init() {
@@ -141,12 +143,9 @@ function init() {
     setTimeout(() => {
         inquirer.prompt(questions)
         .then((response) => {
-            console.log(response);
-            generateMarkdown(response);
-            console.log(generateMarkdown(response));
-            
+            const readmeResult = generateMarkdown(response);
+            writeToFile('README.md', readmeResult)
         })
-          
     }, 7500);
 }
 

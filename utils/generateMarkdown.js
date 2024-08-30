@@ -2,77 +2,77 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {  
   if (license === "Academic Free License v3.0") {
-    return` ![Static Badge](https://img.shields.io/badge/License-AFL_3.0-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-AFL_3.0-lightblue.svg)`
   } else if (license === "Apache license 2.0") {
-    return` ![Static Badge](https://img.shields.io/badge/License-Apache_2.0-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-Apache_2.0-lightblue.svg)`
   } else if (license === "Artistic license 2.0") {
-    return` ![Static Badge](https://img.shields.io/badge/License-Artistic_2.0-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-Artistic_2.0-lightblue.svg)`
   } else if (license === "Boost Software License 1.0") {
-    return` ![Static Badge](https://img.shields.io/badge/License-BSL_1.0-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-BSL_1.0-lightblue.svg)`
   } else if (license === "BSD 2-clause Simplified license") {
-    return` ![Static Badge](https://img.shields.io/badge/License-BSD_2_Clause-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-BSD_2_Clause-lightblue.svg)`
   } else if (license === "BSD 3-clause New or Revised license") {
-    return` ![Static Badge](https://img.shields.io/badge/License-BSD_3_Clause-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-BSD_3_Clause-lightblue.svg)`
   } else if (license === "BSD 3-clause Clear license") {
-    return` ![Static Badge](https://img.shields.io/badge/License-BSD_3_Clause_Clear-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-BSD_3_Clause_Clear-lightblue.svg)`
   } else if (license === "BSD 4-clause Original or Old license") {
-    return` ![Static Badge](https://img.shields.io/badge/License-BSD_4_Clause-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-BSD_4_Clause-lightblue.svg)`
   } else if (license === "BSD Zero-Clause license") {
-    return` ![Static Badge](https://img.shields.io/badge/License-0BSD-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-0BSD-lightblue.svg)`
   } else if (license === "Creative Commons license family") {
-    return` ![Static Badge](https://img.shields.io/badge/License-CC-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-CC-lightblue.svg)`
   } else if (license === "Creative Commons Zero v1.0 Universal") {
-    return` ![Static Badge](https://img.shields.io/badge/License-CC0_1.0-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-CC0_1.0-lightblue.svg)`
   } else if (license === "Creative Commons Attribution 4.0") {
-    return` ![Static Badge](https://img.shields.io/badge/License-CC_BY_4.0-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-CC_BY_4.0-lightblue.svg)`
   } else if (license === "Creative Commons Attribution ShareAlike 4.0") {
-    return` ![Static Badge](https://img.shields.io/badge/License-CC_BY_SA_4.0-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-CC_BY_SA_4.0-lightblue.svg)`
   } else if (license === "Do What The F*ck You Want To Public License") {
-    return` ![Static Badge](https://img.shields.io/badge/License-WTFPL-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-WTFPL-lightblue.svg)`
   } else if (license === "Educational Community License v2.0") {
-    return` ![Static Badge](https://img.shields.io/badge/License-ECL_2.0-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-ECL_2.0-lightblue.svg)`
   } else if (license === "Eclipse Public License 1.0") {
-    return` ![Static Badge](https://img.shields.io/badge/License-EPL_1.0-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-EPL_1.0-lightblue.svg)`
   } else if (license === "Eclipse Public License 2.0") {
-    return` ![Static Badge](https://img.shields.io/badge/License-EPL_2.0-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-EPL_2.0-lightblue.svg)`
   } else if (license === "European Union Public License 1.1") {
-    return` ![Static Badge](https://img.shields.io/badge/License-EUPL_1.1-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-EUPL_1.1-lightblue.svg)`
   } else if (license === "GNU Affero General Public License v3.0") {
-    return` ![Static Badge](https://img.shields.io/badge/License-AGPL_3.0-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-AGPL_3.0-lightblue.svg)`
   } else if (license === "GNU General Public License family") {
-    return` ![Static Badge](https://img.shields.io/badge/License-GPL-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-GPL-lightblue.svg)`
   } else if (license === "GNU General Public License v2.0") {
-    return` ![Static Badge](https://img.shields.io/badge/License-GPL-2.0-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-GPL-2.0-lightblue.svg)`
   } else if (license === "GNU General Public License v3.0") {
-    return` ![Static Badge](https://img.shields.io/badge/License-GPL-3.0-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-GPL-3.0-lightblue.svg)`
   } else if (license === "GNU Lesser General Public License family") {
-    return` ![Static Badge](https://img.shields.io/badge/License-LGPL-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-LGPL-lightblue.svg)`
   } else if (license === "GNU Lesser General Public License v2.1") {
-    return` ![Static Badge](https://img.shields.io/badge/License-LGPL_2.1-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-LGPL_2.1-lightblue.svg)`
   } else if (license === "GNU Lesser General Public License v3.0") {
-    return` ![Static Badge](https://img.shields.io/badge/License-LGPL_3.0-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-LGPL_3.0-lightblue.svg)`
   } else if (license === "ISC") {
-    return` ![Static Badge](https://img.shields.io/badge/License-ISC-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-ISC-lightblue.svg)`
   } else if (license === "LaTeX Project Public License v1.3c") {
-    return` ![Static Badge](https://img.shields.io/badge/License-LPPL_1.3c-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-LPPL_1.3c-lightblue.svg)`
   } else if (license === "Microsoft Public License") {
-    return` ![Static Badge](https://img.shields.io/badge/License-MS_PL-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-MS_PL-lightblue.svg)`
   } else if (license === "MIT") {
-    return` ![Static Badge](https://img.shields.io/badge/License-MIT-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-MIT-lightblue.svg)`
   } else if (license === "Mozilla Public License 2.0") {
-    return` ![Static Badge](https://img.shields.io/badge/License-MPL_2.0-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-MPL_2.0-lightblue.svg)`
   } else if (license === "Open Software License 3.0") {
-    return` ![Static Badge](https://img.shields.io/badge/License-OSL_3.0-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-OSL_3.0-lightblue.svg)`
   } else if (license === "PostgreSQL License") {
-    return` ![Static Badge](https://img.shields.io/badge/License-PostgreSQL-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-PostgreSQL-lightblue.svg)`
   } else if (license === "SIL Open Font License 1.1") {
-    return` ![Static Badge](https://img.shields.io/badge/License-OFL_1.1-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-OFL_1.1-lightblue.svg)`
   } else if (license === "University of Illinois/NCSA Open Source License") {
-    return` ![Static Badge](https://img.shields.io/badge/License-NCSA-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-NCSA-lightblue.svg)`
   } else if (license === "The Unlicense") {
-    return` ![Static Badge](https://img.shields.io/badge/License-Unlicense-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-Unlicense-lightblue.svg)`
   } else if (license === "zLib License") {
-    return` ![Static Badge](https://img.shields.io/badge/License-Zlib-lightblue.svg)`
+    return`![Static Badge](https://img.shields.io/badge/License-Zlib-lightblue.svg)`
   } else if (license === "None") {
     return
   }
@@ -152,7 +152,7 @@ function renderLicenseLink(license) {
   } else if (license === "The Unlicense") {
     return `[https://choosealicense.com/licenses/unlicense/](https://choosealicense.com/licenses/unlicense/)`
   } else if (license === "zLib License") {
-    return `[https://www.zlib.net/zlib_license.html](https://www.zlib.net/zlib_license.html)`
+    return '[https://www.zlib.net/zlib_license.html](https://www.zlib.net/zlib_license.html)'
   } else if (license === "None") {
     return
   }
@@ -162,47 +162,53 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   return `
-  <p> This repo is under ${license} license.  Please see link below for more details. 
-  <p> ${renderLicenseLink(license)}
+<p> This repo is under ${license} license.  Please see link below for more details. 
+<br> 
+
+${renderLicenseLink(license)}
   `
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(response) {
   return `
-  # ${response.title}
-    ${renderLicenseBadge(response.license)}
+# ${response.title}
+<br>
 
-  ## Description:
-  <p> ${response.description}
+${renderLicenseBadge(response.license)}
 
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
+## Description:
+<p> ${response.description}
 
-  ## Installation:
-  <p> ${response.installation}
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-  ## Usage:
-  <p> ${response.usage}
+## Installation:
+<p> ${response.installation}
 
-  ## License:
-   ${renderLicenseSection(response.license)}
+## Usage:
+<p> ${response.usage}
 
-  ## Contributing:
-  <p> ${response.contributing}
+## License:
+${renderLicenseSection(response.license)}
 
-  ## Test: 
-  <p> ${response.test}
+## Contributing:
+<p> ${response.contributing}
 
-  ## Questions:
-  <p> Feel free to reach out with any questions using the link below
-  <p> [GitHub](https://github.com/${response.questionsGitHub}
-  <p> Or email at ${response.questionsEmail}`
+## Test: 
+<p> ${response.test}
+
+## Questions:
+<p> Feel free to reach out with any questions using the link below
+<br>
+
+[GitHub](https://github.com/${response.questionsGitHub})
+<p> Or email at ${response.questionsEmail}`
 };
 
 module.exports = generateMarkdown;

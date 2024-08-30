@@ -3,7 +3,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const colors = require('colors');
 const { clear } = require('console');
-const { generateMarkdown } = require('./utils/generateMarkdown.js');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 let launched = false;
 
 function launch () {
@@ -62,6 +62,11 @@ const questions = [
         type: "input"
     },
     {
+        name: "usage",
+        message: "Please input READme usage:",
+        type: "input"
+    },
+    {
         name: "license",
         message: "Please select READme license:",
         type: "list",
@@ -111,7 +116,7 @@ const questions = [
         type: "input"
     },
     {
-        name: "tests",
+        name: "test",
         message: "Please input READme tests:",
         type: "input"
     },
@@ -135,7 +140,13 @@ function init() {
     launch();
     setTimeout(() => {
         inquirer.prompt(questions)
-        .then(response => console.log(response))    
+        .then((response) => {
+            console.log(response);
+            generateMarkdown(response);
+            console.log(generateMarkdown(response));
+            
+        })
+          
     }, 7500);
 }
 
